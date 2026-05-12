@@ -14,6 +14,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\..\src\Quantrum.Abstractions\Quantrum.Abstractions.csproj" />
+      <ProjectReference Include="..\..\src\Quantrum.Adapters\Quantrum.Adapters.csproj" />
       <ProjectReference Include="..\..\src\Quantrum.Engine\Quantrum.Engine.csproj" />
     </ItemGroup>
 
