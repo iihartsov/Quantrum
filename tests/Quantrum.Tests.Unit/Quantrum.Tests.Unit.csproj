@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FluentAssertions" Version="7.2.2" />
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.5.1" />
+      <PackageReference Include="Moq" Version="4.20.70" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\src\Quantrum.Abstractions\Quantrum.Abstractions.csproj" />
+      <ProjectReference Include="..\..\src\Quantrum.Adapters\Quantrum.Adapters.csproj" />
+      <ProjectReference Include="..\..\src\Quantrum.Engine\Quantrum.Engine.csproj" />
+    </ItemGroup>
+
+</Project>
